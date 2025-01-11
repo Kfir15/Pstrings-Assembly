@@ -29,6 +29,16 @@ Pstring has 4 function and each function has her case:
 * case 34 - Receives two integers as start and end indices and copies the substring `src[i:j]` from the first pstring to `dst[i:j]` of the second pstring, printing the result.
 * Case 35 - Concatenates the second pstring to the end of the first, if possible, and prints the result.
 
+```bash
+char pstrlen(Pstring* pstr);
+
+Pstring* swapCase(Pstring* pstr);
+
+Pstring* pstrijcpy(Pstring* dst, Pstring* src, char i, char j);
+
+Pstring* pstrcat(Pstring* dst, Pstring* src);
+```
+
 ## To Run
 1. Clone this repository.
 2. On Linux (either a virtual machine or WSL), build the executables by running:
