@@ -1,0 +1,5 @@
+.vscode
+func_select.o
+main.o
+pstring.o
+pstrings
